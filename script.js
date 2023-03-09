@@ -1,15 +1,15 @@
-let firstName;
-let secondName;
-firstName = prompt('Enter first number');
-secondName = prompt('Enter second number');
+let firstNum;
+let secondNum;
+firstNum = prompt("Enter first number");
+secondNum = prompt("Enter second number");
 
 let sum;
 let diff;
 let prod;
 let quot;
-sum = Number(firstName) + Number(secondName);
-diff = Number(firstName) - Number(secondName);
-prod = Number(firstName) * Number(secondName);
-quot = Number(firstName) / Number(secondName);
+sum = Number(firstNum) + Number(secondNum);
+diff = Number(firstNum) - Number(secondNum);
+prod = Number(firstNum) * Number(secondNum);
+quot = Number(firstNum) / Number(secondNum);
 
 alert(`Sum=${sum}, Diff=${diff}, Prod=${prod}, Quot=${quot}`);
